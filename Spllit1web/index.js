@@ -1,9 +1,49 @@
 
-console.log("Working :)")
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+const Book     =document.getElementById("Book")
+const EBook    =document.getElementById("E-Book")
+const Nothing  =document.getElementById("Nothing")
+const cliced   =document.getElementById("myButton")
+
+document.getElementById("myButton").onclick = function(){
+
+  if(Book.checked){
+    window.alert("It will be shiped tommorow!")
+  }
+  else if(EBook.checked){
+    window.alert("E-Book Payment send!")
+  }
+  else if(Nothing.checked){
+    window.alert("Okay!")
+  }
+  else{
+    window.alert("You have to select one.")
+  }
+
+   
+
+}*/
 
 
 

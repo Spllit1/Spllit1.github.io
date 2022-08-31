@@ -1,5 +1,16 @@
-#countlabel{
-    display: block;
-    text-align: center;
-    font-size: 50px;
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: seagreen;
+    font-family: "consolas", sans-serif;
+    
+}
+
+h1{
+    color: darkorchid;
+    font-family: "Press Start 2P";
+    font-style:italic
+
 }
