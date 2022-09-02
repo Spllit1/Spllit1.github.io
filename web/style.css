@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+#iw1{
+    text-shadow: 5px 5px 8px tomato;
+    margin-bottom: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#p1{
+  
+ 
+   position: absolute;
+   color: aqua;
+
+}
