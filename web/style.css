@@ -7,9 +7,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #p1{
-  
- 
-   position: absolute;
-   color: aqua;
-
+   position: relative;
+   top: -15px;
+   color: rgb(163, 163, 163);
+   text-shadow: 3px 3px 5px black;
 }
+
