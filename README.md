@@ -1,4 +1,4 @@
-#            Spllit1.github.io           #   
+```#            Spllit1.github.io           #   
 
 
 ☆  This is My Website Hosted on GitHub! ☆
@@ -12,6 +12,6 @@
   • What is this Website?
   - Its my own Website with some random 
     Things! Im still learning HTML/Js/Css.
-
+```
   
 
