@@ -7,7 +7,7 @@
   - Because its Free & Fast!
   
   • Whats the Name of the Website?
-  - https://spllit1.github.io 
+  - [https://spllit1.github.io](https://spllit1.github.io) 
 
   • What is this Website?
   - Its my own Website with some random 
