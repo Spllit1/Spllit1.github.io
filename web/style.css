@@ -12,4 +12,33 @@ body{
    color: rgb(163, 163, 163);
    text-shadow: 3px 3px 5px black;
 }
-
+.button{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 3px 4px 10px black;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.button:hover{
+    top: -20px;
+}
+.Title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    color: darkorange;
+}
+.Text{
+    position: relative;
+    right: 90px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(251, 251, 251);
+}

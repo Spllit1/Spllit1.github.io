@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(14, 14, 14);
+}
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid whitesmoke;
+}
+#scoreText{
+    color: coral;
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: impact, sans-serif;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
