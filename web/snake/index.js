@@ -10,6 +10,7 @@ const snakeColor = "lightgreen";
 const snakeBorder = "black";
 const foodColor = "red";
 const unitSize = 25;
+let popup = document.getElementById("pop");
 let running = false;
 let xVelocity = unitSize;
 let yVelocity = 0;
@@ -25,9 +26,7 @@ let snake = [
 ];
 window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
-
 gamestart();
-
 function gamestart(){
     running=true;
     scoreText.textContent = score;
@@ -41,7 +40,7 @@ function nextTick(){
             clearBoard();
             drawFood();
             moveSnake();
-            drawSnake();
+            drawSnake(); 
             checkGameOver();
             nextTick();
         }, 90)
@@ -146,6 +145,7 @@ function displayGameOver(){
     ctx.textAlign = "center";
     ctx.fillText("GAME OVER!", gameWidth / 2, gameHeight / 2);
     running = false;
+    
 };
 function resetGame(){
     score = 0;
