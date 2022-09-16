@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(55, 32, 65);
+}
+#Title{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: grey;
+    text-shadow: 5px 2px 5px black;
+}
+#SmallMorse{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: grey;
+    text-shadow: 5px 2px 5px black;
+}
+
+.dis{
+    position: relative;
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    background: none;
+}
