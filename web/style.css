@@ -1,25 +1,28 @@
 body{
-    background: linear-gradient(rgb(21, 21, 21)rgb(79, 95, 147));
+    background: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #iw1{
+    position: relative;
     text-shadow: 5px 5px 8px tomato;
     margin-bottom: 0%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 10px;
 }
 #p1{
    position: relative;
    top: -15px;
+   left:20px;
    color: rgb(163, 163, 163);
    text-shadow: 3px 3px 5px black;
 }
 .container{
     float: left;
-    color: white;
+    color: rgb(255, 230, 0);
     background: linear-gradient(rgb(169, 19, 180), rgb(23, 56, 165));
     border-radius: 9px;
-    border: 5px solid rgb(125, 73, 237);
+    border: none;
     padding: 25px;
     text-align: center;
     position: relative;
@@ -36,9 +39,9 @@ body{
     top: -20px;
 }
 .butter{
-    color: rgb(0, 0, 0);
+    color: rgb(19, 70, 200);
     border: none;
     border-radius: 3px;
-    background: linear-gradient(rgb(10, 126, 0), rgb(4, 255, 0));
+    background: ;
 }
 
