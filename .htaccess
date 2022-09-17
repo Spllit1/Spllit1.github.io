@@ -1,3 +1,8 @@
 ErrorDocument 404 /404.html
-RewriteCond %{REQUEST_URI} /index\.html?$ [NC]
-RewriteRule ^(.*)index\.html?$ "/$1" [NC,R=301,NE,L]
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
